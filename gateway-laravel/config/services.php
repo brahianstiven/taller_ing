@@ -31,4 +31,12 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'flask' => [
+        'base_url' => env('FLASK_BASE_URL'),
+    ],
+
+    'express' => [
+        'base_url' => env('EXPRESS_BASE_URL'),
+    ],
+
 ];
